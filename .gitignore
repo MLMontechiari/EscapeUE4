@@ -20,3 +20,5 @@ RuinsEscape2/Source/SKMannequin_T_Pose/UE4_Mannequin_occlusion.jpg
 RuinsEscape2/Source/Motionbuilder/SK_Mannequin_Edit_Template.fbm/UE4_Mannequin_occlusion.jpg
 RuinsEscape2/Source/Maya/SK_Mannequin_HIK_Edit_Template.mb
 *.ipch
+*.db-shm
+*.db-wal
