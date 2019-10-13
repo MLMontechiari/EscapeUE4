@@ -1,3 +1,4 @@
+﻿![ImagenGameStudio](https://github.com/CapitanBonio19/EscapeUE4/blob/master/GameStudio.png)
 ## EscapeUE4 Android
 Comienzo de proyecto, juego que tendra su inspiracion entre el mod del Warcraft 3 "Polar Escape" y el siempre conocido Crash Bandicout de PS1. Será desarrollado en C++ y Blueprints. Los pasos generados abajo serán para los desarrolladores del projecto pero proximamente sumaremos guias para los que quieran sumarse como testers o quieran realizar un aporte.
 
