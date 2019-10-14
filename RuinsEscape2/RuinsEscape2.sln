@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.25807.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{5BD654EB-6534-4EE4-8CED-4185131CCFBE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{B51C08AA-8720-4104-A199-FF0ADB21F438}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{49C4F043-5A43-4DD0-8D1C-DA3AD485D38A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{45243554-DE52-41CF-8D05-2FA9F40B4D56}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{F06D6825-505E-4B99-A0B4-06454B9F1828}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RuinsEscape2", "Intermediate\ProjectFiles\RuinsEscape2.vcxproj", "{960AB31E-5BC8-4491-BF20-608054188932}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{9F438D92-974E-4429-A00B-2D2F134853C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{77360833-BC98-4A69-BC5E-3EE8290C96B4}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\..\Program Files\Epic Games\UE_4.23\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -117,7 +117,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F06D6825-505E-4B99-A0B4-06454B9F1828} = {5BD654EB-6534-4EE4-8CED-4185131CCFBE}
-		{960AB31E-5BC8-4491-BF20-608054188932} = {49C4F043-5A43-4DD0-8D1C-DA3AD485D38A}
+		{F06D6825-505E-4B99-A0B4-06454B9F1828} = {B51C08AA-8720-4104-A199-FF0ADB21F438}
+		{960AB31E-5BC8-4491-BF20-608054188932} = {45243554-DE52-41CF-8D05-2FA9F40B4D56}
 	EndGlobalSection
 EndGlobal
