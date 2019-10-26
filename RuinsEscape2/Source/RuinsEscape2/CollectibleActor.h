@@ -25,28 +25,28 @@ public:
 
 	//Declaracion de los float que van a generar el movimiento de rotacion se cambian desde el editor.
 	UPROPERTY(EditAnyWhere, Category = "Movement")
-		float PitchValue;
+	float PitchValue;
 
 	UPROPERTY(EditAnywhere, Category = "Movement")
-		float YawValue;
+	float YawValue;
 
 	UPROPERTY(EditAnywhere, Category = "Movement")
-		float RollValue;
+	float RollValue;
 
 	//Declaracion del objeto para detectar colisiones
 	UPROPERTY(VisibleAnywhere)
-		class USphereComponent * CollisionSphere;
+	class USphereComponent * CollisionSphere;
 
 	//Declaramos el StaticMesh
 	UPROPERTY(VisibleAnywhere)
-		class UStaticMeshComponent* StaticMesh;
+	class UStaticMeshComponent* StaticMesh;
 
 	//Declaramos variable para el manejo del radio de la sphere
 	UPROPERTY(VisibleAnywhere)
-		float SphereRadius;
+	float SphereRadius;
 
 	//Manejo de cuando comienza el overlap
 	UFUNCTION()
-		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 };
