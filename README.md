@@ -13,6 +13,3 @@ Ir a la carpeta del projecto "EscaoeUE4\RuinsEscape2" y hagan click derecho en e
 
 ### Paso 3: Realizar el Build de la solucion en Visual Studio.
 Una vez que los archivos de Visual Studio hayan terminado de generarse, van a ver un archivo sln en la carpeta del proyecto llamado *** RuinsEscape2.sln ***. Abran este archivo en Visual Studio. Y revisen que la configuración de la solución esté configurada en * Editor de desarrollo * y que la plataforma de solución esté configurada en "Win64" en los menús desplegables en la parte superior de Visual Studio. Despues, haga clic con el botón derecho en el proyecto, ** no en la solución completa **, llamada `RuinsEscape2` en la carpeta" Juegos "debajo de la solución en el lado derecho de Visual Studio, compilen la solucion.
-
-## Paso 4: Para aquellos que quieran sumarse como Testers
-Realizaremos actualizaciones al repositorio.
